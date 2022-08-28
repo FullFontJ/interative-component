@@ -1,0 +1,94 @@
+:root{
+--while: #ffffff;
+--ligth-grey: #959eac;
+--medium-grey:#7c8798;
+--dark-blue: #171E28;
+--medium-blue: #262F38;
+--very-dark-blue: #121417;
+--accent-color: 	#fb7413;
+}
+
+body{
+    background-color: var(--very-dark-blue);
+}
+
+.container{
+    width: 340px;
+    height: 360px;
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 7% 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-star{
+    height: 20px;
+    width: 20px;
+    background-color: var(--medium-blue);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+h3{
+    color: var(--while);
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+p{
+    color: var(--medium-grey);
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
+.group-btn-num{
+    prefix: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.btn-button{    
+    font-family: sans-serif;
+    padding: 16px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    border-radius: 50%;
+    background-color: var(--medium-blue);
+    color: var(--medium-grey);
+    
+}
+
+.btn-button:first-child{
+    margin: 0 10px 0 0;
+}
+.btn-button:last-child{
+    margin: 0 -10px 0 10px;
+}
+
+.btn-button:hover{
+    color: var(--while);
+    background-color: var(--ligth-grey);
+}
+
+#btn-submit{
+    font-family: sans-serif;
+    height: 50px;
+    width: 340px;
+    margin-top: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1em;
+    border-radius: 20px 20px;
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--while);
+}
+
+#btn-submit:hover{
+    background-color: var(--while);
+    color: var(--accent-color);
+}
